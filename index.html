@@ -45,10 +45,9 @@
     <div class="relative mx-auto">
         <img class="h-50 w-full object-cover rounded-md" src="./assets/background_1.jpg" alt="Random image">
         <div class="absolute inset-0 bg-gray-500 opacity-30 rounded-md"></div>
-        <div class="absolute inset-0 flex items-center justify-around">
-            <h1 class="text-4xl font-bold text-orange-500 poppins-extrabold text-balance text-style">Rasakan Adrenalin di Setiap Petualangan</h1><br>
-            <p class="text-white poppins-semibold text-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae modi, excepturi sequi temporibus repudiandae id 
-                pariatur! Quis eligendi nostrum natus deserunt harum, odio numquam vel minus labore enim dolore tempora.</p>
+        <div class="absolute inset-0 flex items-center justify-between gap-5">
+            <h1 class="text-4xl font-bold text-orange-500 poppins-extrabold text-balance text-style text-right">Rasakan Adrenalin di Setiap Petualangan</h1><br>
+            <p class="text-white poppins-semibold text-left text-balance">Nikmati keseruan berpetualang dalam setiap perjalanan wahana yang menguji adrenalin</p>
         </div>
     </div>
     <div>
@@ -79,15 +78,15 @@
         </section>
     </div>
     <div>
-            <main>
-                <h2>Selamat Datang di Petualangan</h2>
+            <main class="bg-gray-100 poppins-regular"> 
+                <h2 class="font-bold text-xl text-center">Selamat Datang di Petualangan</h2>
 
-                <h1> Kami Adalah Tur Petualangan Terbaik di Kota Bogor</h1>
+                <h1 class="font-bold text-xl text-center"> Kami Adalah Tur Petualangan Terbaik di Kota</h1>
 
-                <ul class="fa-ul">
+                <ul class="fa-ul justify-center grid lg:gap-4 lg:grid-cols-2">
                     <li>
                         <span> 
-                            <i aria-hidden="true" class="fa-solid fa-check"></i>
+                            <i aria-hidden="true" class="fa-solid fa-check" ></i>
                         </span> 
                         <span>Penghargaan Terbaik</span>
                     </li>
@@ -134,23 +133,98 @@
                         Jaminan Uang Kembali</li>
                 </ul>
 
-                <section>
+
+                <div class="grid lg:gap-8 lg:grid-cols-3">
+                    <div class="lg:col-span-2">
+                        <section>
+                            <h2 class="text-3xl font-bold mb-8">River Rafting</h2>
+                            <ul>
+                                <li class="card hover:scale-105 transition-transform duration-500">
+                                    <img class="w-full" src="./assets/rafting.jpg" alt="Rafing"/>
+                                    <div class="p-10">
+                                        <h3 class="text-xl mb-4">
+                                        <b>Arung jeram</b> merupakan kegiatan mengarungi jeram-jeram sungai yang sangat menantang.
+                                        </h3>
+                                        <p class="mb-4">
+                                            <b>Rafting atau Arung jeram</b> adalah suatu aktivitas pengarungan bagian alur sungai yang berjeram/riam, dengan menggunakan wahana tertentu. Pengertian wahana dalam pengarungan sungai berjeram / riam yaitu sarana / alat yang terdiri dari perahu karet, kayak, kano dan dayung. Tujuan berarung jeram bisa dilihat dari sisi olah raga, rekreasi dan ekspedisi.Jadi dengan demikian kita dapat definisikan bahwa olah raga Arung Jeram (White Water Rafting) merupakan olah raga mengarungi sungai berjeram, dengan menggunakan perahu karet, kayak, kano dan dayung dengan tujuan rekreasi atau ekspedisi.
+                                        </p>
+                                            <a class="text-blue-600 hover:underline" href="#"
+                                        >Detail</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </section>
+        
+                        <section>
+                            <h2 class="text-3xl font-bold mb-8">ATV Tour</h2>
+                            <ul>
+                                <li class="card hover:scale-105 transition-transform duration-500">
+                                    <img class="w-full h-85" src="./assets/atv_2.jpg"alt="atv-racers"/>
+                                    <div class="p-8">
+                                        <h3 class="text-xl font-bold mb-4">
+                                            Destinasi Petualangan ATV Tour
+                                        </h3>
+                                        <p class="mb-4">
+                                            <b>Kendaraan segala medan</b>(bahasa Inggris: <i>all-terrain vehicle;</i> ATV) adalah sebuah sepeda motor yang memiliki empat roda. ATV biasanya digunakan untuk pertanian atau rekreasi. Rodanya didesign sedikit besar dan tinggi. ATV ini terkenal dengan kendaraan yang bisa melalui segala medan. Orang kerap menyebut ATV dengan sebutan mobil mini atau mini traktor, mungkin karena bentuknya yang menyerupai traktor
+
+                                            ATV ini mudah di kemudikan dalam kondisi jalan basah, naik, atau turunan bukit. Dengan kekuatannya ATV bisa melewati medan medan yang tidak bisa dilewati sepeda motor biasa dan berkapasitas seperti mobil.
+                                        </p>
+                                        <a class="text-blue-600 hover:underline" href="#"
+                                    >Read full article</a>
+                                </div>
+                            </li>
+                        </ul>
+                        </section>
+
+                        <section>
+                            <h2 class="text-3xl font-bold mb-8">Climbing</h2>
+                            <ul>
+                                <li class="card hover:scale-105 transition-transform duration-500">
+                                    <img class="w-full h-85" src="./assets/panjat tebing.jpg"alt="climbing"/>
+                                    <div class="p-8">
+                                        <h3 class="text-xl font-bold mb-4">
+                                            Destinasi Petualangan Panjat Tebing
+                                        </h3>
+                                        <p class="mb-4">
+                                            Climbing adalah olahraga ekstrim yang melibatkan memanjat atau mendaki di dinding atau tebing bebatuan. Climbing membutuhkan kekuatan, ketahanan, kelincahan, keseimbangan, dan kontrol mental.
+                                        </p>
+                                        <a class="text-blue-600 hover:underline" href="#"
+                                    >Read full article</a>
+                                </div>
+                            </li>
+                        </ul>
+                        </section>
+                    </div>
+                </div>
+
+                <section class="">
                     <div>
-                        <h3>Layanan Kami</h3>
-                        <h1>Kami Menyediakan Petualangan Terbaik</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque odio non perspiciatis quaerat dolor aliquam sequi inventore incidunt perferendis vero! Iste sint optio porro accusamus, soluta voluptas excepturi qui fugiat!
+                        <h3 class="font-bold text-xl text-center">Layanan Kami</h3>
+                        <h1 class="font-bold text-xl text-center">Kami Menyediakan Petualangan Terbaik</h1>
+                        <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque odio non perspiciatis quaerat dolor aliquam sequi inventore incidunt perferendis vero! Iste sint optio porro accusamus, soluta voluptas excepturi qui fugiat!
                         </p>
                     </div>
 
-                    <div id="service">
-                        <h3>Arung Jeram Sungai</h3>
-                        <h3>Tur ATV</h3>
-                        <h3>Tur Sepeda</h3>
+                    <div id="service"  >
+                        <ul class=" flex text-center grid lg:gap-8 lg:grid-cols-3">
+                            <li class="card hover:scale-105 transition-transform duration-500 rounded-md">
+                                <img src="./assets/rafting.jpg" alt="rafting">
+                                <h3>Arum Jeram Sungai</h3>
+                            </li>
+                            <li class="card hover:scale-105 transition-transform duration-500 rounded-md"> 
+                                <img src="./assets/two-atv-riders.jpg" alt="atv-racers">
+                                <h3>Tur ATV</h3>
+                            </li>
+                            <li class="card hover:scale-105 transition-transform duration-500 rounded-md">
+                                <img src="./assets/bicycle-tour.jpg" alt="bicycle-tour">
+                                <h3>Tur Sepeda</h3>
+                            </li>
+                        </ul>
                     </div>
                 </section>
 
                 <section>
-                    <h3>Mengapa Memilih Kami</h3>
+                    <h3 class="font-bold text-xl text-center">Mengapa Memilih Kami</h3>
                     <h1>Kami Memberikan Pelayanan dan Pengalaman Terbaik</h1>
                     <p></p>
 
@@ -163,11 +237,11 @@
 
                 <section>
                     <h2>Rasakan Pengalaman Berpetualang Bersama Kami, Jangan Ragu Untuk Menghubungi Kami !</h2>
-                </section>
+                </section>                                                 
             </main>
-    </div>
+    </d                                                           iv>
 </body>
-<footer class="bg-gray-800 text-white px-4 py-12">
+<footer class="bg-gray-800 text-white px-5 py-12">
     <div class="container mx-auto">
     <div class="lg:flex lg:space-x-4">
         <section class="mb-4 lg:w-1/3">
@@ -212,28 +286,23 @@
 
         <section class="mb-4 lg:w-1/3">
         <h2 class="text-xl font-bold mb-4">Follow Us</h2>
-        <ul class="flex space-x-4">
+        <ul class="flex space-x-5 items-center justify-center">
+                <li>
+                    <a class="text-gray-400 hover:text-white transition-color duration-200"
+                        href="#">
+                        <i class="fa-brands fa-twitter fa-lg"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="text-gray-400 hover:text-white transition-color duration-200"
+                        href="#"><i class="fa-brands fa-facebook fa-lg"></i>
+                    </a>
+                </li>
             <li>
-            <a
-                class="text-gray-400 hover:text-white transition-color duration-200"
+            <a class="text-gray-400 hover:text-white transition-color duration-200"
                 href="#">
-                <i class="fa-brands fa-twitter fa-lg"></i>
+                <i class="fa-brands fa-instagram fa-lg"></i>
             </a>
-            twitter
-            </li>
-            <li>
-            <a
-                class="text-gray-400 hover:text-white transition-color duration-200"
-                href="#"
-                ><i class="fa-brands fa-facebook fa-lg"></i
-            ></a>
-            </li>
-            <li>
-            <a
-                class="text-gray-400 hover:text-white transition-color duration-200"
-                href="#"
-                ><i class="fa-brands fa-instagram fa-lg"></i
-            ></a>
             </li>
         </ul>
         </section>
